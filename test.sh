@@ -10,7 +10,7 @@ else
     exit 1
 fi
 
-if grep -q "Application deployed successfully" index.html
+if grep -q "Git CI/CD Pipeline Successfully Implemented!" index.html
 then
     echo "TEST PASSED: Deployment message found"
 else
